@@ -1,0 +1,41 @@
+.netflix_logo{
+    max-width: 100px;
+}
+.header_outer_container{
+    background-color: #0e0d0d;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    transition: all 0.5s;
+    z-index: 1;
+    
+}
+
+.header_inner_container{
+    height: 75px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 0 auto;
+}
+.header_left ul{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.header_right ul{
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header_list_style li{
+    list-style: none;
+}
+.header_list_style li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
